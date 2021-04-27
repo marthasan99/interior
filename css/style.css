@@ -164,6 +164,17 @@ header ul li a{
 	font-weight: 500;
 	margin-bottom: 10px;
 	padding-left: 45px;
+	position: relative;
+}
+.features .sec-1 h2::after{
+	position: absolute;
+	content: " ";
+	left: ;
+	bottom: 45%;
+	right: 87.8%;
+	height: 11%;
+	width: 10.5%;
+	background: #ffe8c3;
 }
 .features .sec-1 p{
 	margin-bottom: 10px;
@@ -228,6 +239,16 @@ header ul li a{
 	font-weight: 500;
 	margin-bottom: 10px;
 	padding-left: 45px;
+}
+.features .sec-2 h2::after{
+	position: absolute;
+	content: " ";
+	left: ;
+	bottom: 45%;
+	right: 87.8%;
+	height: 11%;
+	width: 10.5%;
+	background: #ffe8c3;
 }
 .features .sec-2 p{
 	margin-bottom: 10px;
@@ -295,6 +316,16 @@ header ul li a{
 	font-weight: 500;
 	margin-bottom: 10px;
 	padding-left: 45px;
+}
+.features .sec-3 h2::after{
+	position: absolute;
+	content: " ";
+	left: ;
+	bottom: 45%;
+	right: 87.8%;
+	height: 11%;
+	width: 10.5%;
+	background: #ffe8c3;
 }
 .features .sec-3 p{
 	margin-bottom: 10px;
