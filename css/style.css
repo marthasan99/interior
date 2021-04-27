@@ -28,6 +28,7 @@ header ul li a{
 .d-flex h4{
 	font-size: 16px!important;
 	font-weight: 500!important;
+	color: #fff;
 }
 .d-flex h4::after{
 	position: absolute;
@@ -104,6 +105,10 @@ header ul li a{
 
 .features{
 
+}
+.features .container-fluid{
+	margin: 0;
+	padding: 0;
 }
 .features .sec-1{
 	background: #fff;
