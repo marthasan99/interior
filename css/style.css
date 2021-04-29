@@ -46,7 +46,7 @@ header ul li a{
 
 .banner{
 	padding: 80px;
-	height: 120vh;
+	height: 100vh;
 	background: url(../img/banner.png) center no-repeat;
 	position: relative;
 	z-index: 1000;
@@ -493,4 +493,57 @@ header ul li a{
 	background: #001D38;
 	height: 4px;
 	width: 80%;
+}
+
+
+
+.overlay3{
+	position: absolute;
+    content: " ";
+    background-color: #001D38;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1500;
+    opacity: .6;
+}
+.comments{
+	background: url(../img/bg.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+	z-index: 1000;
+	padding: 84px 0px;
+}
+.com-slider{
+	position: relative;
+	z-index: 9999;
+}
+.comments img{
+	width: auto!important;
+	display: initial!important;
+	margin-bottom: 15px;
+}
+.comments-items{
+	text-align: center!important;
+}
+.comments-items h6{
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	margin: 34px 0;
+}
+.comments-items h4{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.comments-items h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff
 }
