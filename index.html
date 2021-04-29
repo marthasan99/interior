@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Colorlib</title>
@@ -107,8 +109,152 @@
         </div>
       </div>
     </section>
+    <section class="works">
+      <div class="container">
+        <h1>Our Works</h1>
+      </div>
+    </section>
+    <section class="work-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-7">
+            <img src="img/4.png" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-lg-5 work-right">
+            <h2>White Blocks House</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
+            <button>Details</button>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-6 col-lg-5 work-left">
+            <h2>Art Gallery Design</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
+            <button>Details</button>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <img src="img/5.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-7">
+            <img src="img/6.png" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-lg-5 work-right">
+            <h2>Art Gallery Design</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
+            <button>Details</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-5 work-left">
+            <h2>Office Space</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
+            <button>Details</button>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <img src="img/7.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-6 col-md-12 col-lg-6">
+            <img src="img/8.png" class="img-fluid">
+          </div>
+          <div class="col-xl-5 col-md-12 col-lg-5 about-right">
+            <h1>Professional and creative mind</h1>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet.</p>
+            <div class="prog">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Architecture</h3>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="stat1">60%</h3>
+                </div>
+              </div>
+              <div class="line"> 
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Design</h3>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="stat2">65%</h3>
+                </div>
+              </div>
+              <div class="line2"> 
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Interior</h3>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="stat3">85%</h3>
+                </div>
+              </div>
+              <div class="line3">
+              </div>
+            </div>
+            <button>About Us</button>
+          </div>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme">
+          <div class="item"><h4>1</h4></div>
+          <div class="item"><h4>2</h4></div>
+          <div class="item"><h4>3</h4></div>
+          <div class="item"><h4>4</h4></div>
+          <div class="item"><h4>5</h4></div>
+          <div class="item"><h4>6</h4></div>
+          <div class="item"><h4>7</h4></div>
+          <div class="item"><h4>8</h4></div>
+          <div class="item"><h4>9</h4></div>
+          <div class="item"><h4>10</h4></div>
+          <div class="item"><h4>11</h4></div>
+          <div class="item"><h4>12</h4></div>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+          $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:1
+                  },
+                  1000:{
+                      items:1
+                  }
+              }
+          })
+    </script>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
   </body>
 </html>

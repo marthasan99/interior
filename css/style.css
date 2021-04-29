@@ -340,3 +340,157 @@ header ul li a{
 }
 
 
+
+
+
+.works{
+	background: #f5fbff;
+	color: #001D38;
+	padding-top: 180px;
+	padding-bottom: 330px;
+}
+.works h1{
+	font-size: 50px;
+	font-weight: 500;
+	color: #001D38;
+	padding-bottom: 0;
+}
+.work-title{
+	margin-top: -250px;
+}
+.work-title .row{
+	align-items: center;
+	padding-bottom: 80px;
+}
+.work-title .work-right{
+	padding-left: 68px;
+}
+.work-title .work-left{
+	padding-right: 68px;
+}
+.work-title .work-right h2, .work-title .work-left h2{
+	font-size: 30px;
+	font-weight: 500;
+	color: #001D38;
+}
+.work-title .work-right p, .work-title .work-left p{
+	color: #596672;
+	margin-top: 12px;
+	margin-bottom: 38px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.work-title .work-right button, .work-title .work-left button{
+	color: #fff !important;
+	display: inline-block;
+	padding: 14px 47px;
+	font-size: 14px;
+	font-weight: 500;
+	border: 1px solid #001D38;
+	border-radius: 0px;
+	text-align: center;
+	text-transform: capitalize;
+	background: #001D38;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+
+
+
+.about{
+	padding-top: 80px;
+}
+.about .about-right{
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 96px;
+}
+.about .about-right h1{
+	font-size: 40px;
+	font-weight: 500;
+	color: #001D38;
+	padding-bottom: 0;
+}
+.about .about-right p{
+	font-size: 16px;
+	color: #727272;
+	line-height: 28px;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+.about .about-right button{
+	color: #fff !important;
+    display: inline-block;
+    padding: 14px 47px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #001D38;
+    border-radius: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    background: #001D38;
+    letter-spacing: 2px;
+}
+.prog{
+	margin-top: 28px;
+	margin-bottom: 60px;
+}
+.prog h3{
+	font-size: 16px;
+	color: #001D38;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 1.2em;
+
+}
+.prog .stat1{
+	font-size: 16px;
+	color: #001D38;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 1.2em;
+	text-align: right;
+	width: 10%;
+	display: inline-block;
+}
+.prog .stat2{
+	font-size: 16px;
+	color: #001D38;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 1.2em;
+	text-align: right;
+	width: 26%;
+	display: inline-block;
+}
+.prog .stat3{
+	font-size: 16px;
+	color: #001D38;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 1.2em;
+	text-align: right;
+	width: 58%;
+	display: inline-block;
+}
+.prog .line{
+	background: #001D38;
+	height: 4px;
+	width: 60%;
+}
+.prog .line2{
+	background: #001D38;
+	height: 4px;
+	width: 65%;
+}
+.prog .line3{
+	background: #001D38;
+	height: 4px;
+	width: 80%;
+}
