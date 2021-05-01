@@ -50,7 +50,7 @@ header ul li a{
 
 .banner{
 	position: relative;
-	z-index: 1000
+	z-index: 1000;
 }
 .banner-1{
 	padding: 80px;
@@ -409,7 +409,11 @@ header ul li a{
 	letter-spacing: 2px;
 	text-decoration: none;
 }
-
+.work-title .work-right button:hover, .work-title .work-left button:hover{
+	background: #FFE8C3!important;
+	color: #001D38!important;
+	transition: .3s;
+}
 
 
 
