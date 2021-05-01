@@ -15,6 +15,21 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+        $('.bx-controls').remove();
+        $('.bx-wrapper').css({'margin-bottom':'0px'});
+        $('.bx-wrapper').css({'box-shadow':'none'});
+        $('.bx-wrapper').css({'border':'none'});
+        $('.bx-wrapper').css({'cursor':'grab'});
+        $('.owl-carousel').css({'cursor':'grab'});
+      });
+    </script>
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -70,39 +85,37 @@
     </header>
 
     <section class="banner">
-      <div class="owl-carousel owl-theme">
-
-          <div class="item">
-            <div class="banner-1">
-              <div class="container">
-                <div class="row banner-items">
-                  <div class="col-md-8 banner-text">
-                    <h3>Interior Design Solution For Your Business</h3>
-                    <button><a>View Works<a></button>
-                  </div>
+      <div class="slider">
+        <div>
+          <div class="banner-1">
+            <div class="container">
+              <div class="row banner-items">
+                <div class="col-md-8 banner-text">
+                  <h3>Interior Design Solution For Your Business</h3>
+                  <button><a>View Works<a></button>
                 </div>
               </div>
-              <div class="overlay">
+            </div>
+            <div class="overlay">
 
-              </div>
             </div>
           </div>
-
-          <div class="item">
-            <div class="banner-2">
-              <div class="container">
-                <div class="row banner-items">
-                  <div class="col-md-8 banner-text">
-                    <h3>Interior Design Solution For Your Business</h3>
-                    <button><a>View Works<a></button>
-                  </div>
+        </div>
+        <div>
+          <div class="banner-2">
+            <div class="container">
+              <div class="row banner-items">
+                <div class="col-md-8 banner-text">
+                  <h3>Interior Design Solution For Your Business</h3>
+                  <button><a>View Works<a></button>
                 </div>
               </div>
-              <div class="overlay">
+            </div>
+            <div class="overlay">
 
-              </div>
             </div>
           </div>
+        </div>
       </div>
     </section>
     <section class="features">
@@ -331,10 +344,11 @@
 
 
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>-->
     <script type="text/javascript" src="js/owl.carousel.js"></script>
+
 
     <script type="text/javascript">
           $('.owl-carousel').owlCarousel({
