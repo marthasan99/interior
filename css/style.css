@@ -451,6 +451,11 @@ header ul li a{
     background: #001D38;
     letter-spacing: 2px;
 }
+.about .about-right button:hover{
+	background: #FFE8C3!important;
+	color: #001D38!important;
+	transition: .3s;
+}
 .prog{
 	margin-top: 28px;
 	margin-bottom: 60px;
